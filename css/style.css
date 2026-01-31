@@ -1,0 +1,91 @@
+.bg-black {
+    background-color: black;
+    opacity: 1;
+}
+
+.hero {
+    background-image: url(../assets/images/banner-initial.png);
+    background-size: cover;
+    background-position: top ;
+    background-attachment: fixed;
+}
+
+.nav-img {
+    width: 120px;
+    margin-left: 12px;
+}
+
+.container-initial {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    align-items: center;
+    margin-top: 98px;
+}
+
+.container-initial h1 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.container-initial h2 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 29px;
+}
+
+.container-initial h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.container-initial button {
+    border-radius: 6px;
+    color: white;
+    background-color: #e50915;
+    padding: 20px;
+    width: 185px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    border: none;
+}
+
+.section-info {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.section-info h1 {
+    font-size: 56px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.section-info h2 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 15px;
+    line-height: 1.5;
+    margin-left: 50px;
+}
+
+.img-dia-dev {
+    width: 490px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+}
+
+.divider {
+    width: 100vw;
+    height: 3px;
+    background-color: rgb(128, 128, 128, 0.5);
+}
