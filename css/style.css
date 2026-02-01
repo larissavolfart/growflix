@@ -64,13 +64,13 @@
     margin-top: 30px;
 }
 
-.section-info h1 {
+.first-row h1 {
     font-size: 56px;
     font-weight: bold;
     margin-left: 50px;
 }
 
-.section-info h2 {
+.first-row h2 {
     font-size: 28px;
     font-weight: 400;
     margin-top: 15px;
@@ -88,4 +88,67 @@
     width: 100vw;
     height: 3px;
     background-color: rgb(128, 128, 128, 0.5);
+}
+
+.second-row h1 {
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.second-row h2 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+.img-devices {
+    width: 490px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-bottom: 80px;
+}
+
+.accordion-header-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.accordion-item {
+    border: none;
+}
+
+.accordion-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    padding: 10px 0;
+    background-color: #303030;
+    margin-bottom: 5px;
+}
+
+.accordion-button::after {
+    display: none;
+}
+
+.accordion-title {
+    text-align: left;
+    font-size: 24px;
+    margin-left: 20px;
+    padding: 6px;
+}
+
+.accordion-icon {
+    font-size: 40px;
+    font-weight: 300;
+    transition: transform 0.3s ease;
+    margin-right: 20px;
+    padding: 6px;
+}
+
+.accordion-button:not(.collapsed) .accordion-icon {
+  transform: rotate(180deg);
 }
