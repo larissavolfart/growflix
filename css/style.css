@@ -152,3 +152,22 @@
 .accordion-button:not(.collapsed) .accordion-icon {
   transform: rotate(180deg);
 }
+
+.index-button {
+    border-radius: 6px;
+    color: white;
+    background-color: #e50915;
+    padding: 20px;
+    width: 185px;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 20px;
+    border: none;
+    text-decoration: none;
+}
+
+.container-footer {
+    margin-top: 5;
+    background-color: black;
+    color: #495057;
+}
