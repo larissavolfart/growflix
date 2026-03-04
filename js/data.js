@@ -153,10 +153,24 @@ const movies = [
         iframe: '<iframe src="https://www.youtube.com/embed/QsuhYgsSYQo?si=PYEXOxqBlFEjfHf_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
     },
     {
+        img: "https://img.youtube.com/vi/ouDn8z3PSqs/sddefault.jpg",
+        title: "Como é o dia a dia de um dev? - Live Growdev com Marcelo Eltz",
+        link: "https://www.youtube.com/embed/ouDn8z3PSqs",
+        category: "Diversos",
+        iframe: '<iframe src="https://www.youtube.com/embed/ouDn8z3PSqs?si=bs7nPiwaRG9wZFTw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+    },
+    {
         img: "https://img.youtube.com/vi/cQDQNX6NXYo/sddefault.jpg",
         title: "Onde trabalhar com qualidade de software? Conheça a Testing Company, empresa parceira da Growdev",
         link: "https://www.youtube.com/embed/cQDQNX6NXYo",
         category: "Diversos",
         iframe: '<iframe src="https://www.youtube.com/embed/cQDQNX6NXYo?si=74jiWOeTgwJoK8Y0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+    },
+    {
+        img: "https://img.youtube.com/vi/6sZPsqNjeek/sddefault.jpg",
+        title: "Tecnologia trazendo soluções para a Arezzo & CO - Ricardo Pinho",
+        link: "https://www.youtube.com/embed/6sZPsqNjeek",
+        category: "Diversos",
+        iframe: '<iframe src="https://www.youtube.com/embed/6sZPsqNjeek?si=svNF2DNKhi0BOerA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
     },
 ];

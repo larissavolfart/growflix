@@ -30,7 +30,7 @@ function renderMovies(lista, section, titulo) {
 `
 };
 
-renderMovies(growcast, sections[0], "Growcast");
+renderMovies(growcast, sections[0], "Growcast [Episódios]");
 renderMovies(flutter, sections[1], "Webinar em Flutter");
 renderMovies(uxui, sections[2], "Jornada UX/UI");
 renderMovies(diversos, sections[3], "Diversos");

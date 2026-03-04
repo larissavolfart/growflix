@@ -180,3 +180,46 @@
     text-decoration: none;
     color: #495057;
 }
+
+.hero-2 {
+  background-image: url("https://img.youtube.com/vi/7OWT3lfHYvE/maxresdefault.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 130vh;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin-left: 120px;
+  margin-top: 400px;
+  color: white;
+}
+
+.hero-content h1 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.hero-content h2 {
+  margin: 0;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.btn-hero {
+    margin-top: 20px;
+  padding: 8px 20px;
+  font-size: 15px;
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-hero:hover {
+  background-color: #d8d7d7;
+}
