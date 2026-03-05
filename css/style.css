@@ -79,9 +79,9 @@
 }
 
 .img-dia-dev {
-    width: 490px;
+     width: 100%;
+    max-width: 490px;
     margin-bottom: 30px;
-    margin-left: 70px;
 }
 
 .divider {
@@ -102,10 +102,44 @@
 }
 
 .img-devices {
-    width: 490px;
+    width: 100%;
+    max-width: 490px;
     margin-bottom: 30px;
-    margin-left: 50px;
     margin-bottom: 80px;
+}
+
+.first-row h1,
+.first-row h2 {
+    margin-left: 0;
+}
+
+.img-dia-dev,
+.img-devices {
+    margin-left: 0;
+}
+
+@media (max-width: 768px) {
+
+    .section-info {
+        text-align: center;
+    }
+
+    .first-row h1,
+    .second-row h1 {
+        font-size: 36px;
+    }
+
+    .first-row h2,
+    .second-row h2 {
+        font-size: 20px;
+    }
+
+    .img-dia-dev,
+    .img-devices {
+        margin: 0 auto;
+        display: block;
+    }
+
 }
 
 .accordion-header-title {
@@ -195,20 +229,22 @@
 
 .hero-content {
   max-width: 600px;
+  margin: 0 auto;
+  color: white;
+  text-align: start;
   margin-left: 120px;
   margin-top: 400px;
-  color: white;
 }
 
 .hero-content h1 {
   margin: 0;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .hero-content h2 {
   margin: 0;
-  font-size: 80px;
+  font-size: 50px;
   font-weight: bold;
 }
 
