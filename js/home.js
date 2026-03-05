@@ -8,27 +8,52 @@ const diversos = movies.filter(movie => movie.category === "Diversos");
 function renderMovies(lista, section, titulo) {
     section.innerHTML = `
         <div class="container mt-5">
-        <h2 class="text-white mb-4">${titulo}</h2>
-        <div class="row">
+          <a href="#${section.id}" class="text-decoration-none a-title">
+            <h2 id="${section.id}" class="mb-4 render-title">
+              ${titulo} <i class="bi bi-caret-right-fill"></i>
+            </h2>
+          </a>
+        <div class="row gx-4">
 
-      ${lista.map(movie => `
-        <div class="col-md-3 mb-4">
-          <div class="movie-card">
+      ${lista.map((movie,index) => `
+        <div class="col-md-3">
+          <div class="card movie-card"
+               data-index="${index}"
+               data-bs-toggle="modal"
+               data-bs-target="#videoModal">
             
             <img src="${movie.img}" class="movie-img">
 
-            <div class="movie-info">
-              <p class="movie-title">${movie.title}</p>
+            <div class="card-body">
+                <h5 class="card-title">
+                  <i class="bi bi-caret-right-fill fi-card"></i> ${movie.title}
+                </h5>
             </div>
 
           </div>
-        </div>
+        </div>   
       `).join("")}
 
     </div>
   </div>
 `
 };
+
+document.addEventListener("click", function(e) {
+  const card = e.target.closest(".movie-card");
+  if(!card) return;
+
+  const index = card.dataset.index;
+  const movie = movies[index];
+  
+  document.querySelector("#videoModalBody").innerHTML = movie.iframe;
+});
+
+const modal = document.getElementById("videoModal");
+
+modal.addEventListener("hidden.bs.modal", function () {
+  document.getElementById("videoModalBody").innerHTML = "";
+});
 
 renderMovies(growcast, sections[0], "Growcast [Episódios]");
 renderMovies(flutter, sections[1], "Webinar em Flutter");
